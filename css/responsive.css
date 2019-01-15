@@ -1,0 +1,113 @@
+@media screen and (max-width: 1199px) {
+	/****************************  .top-header  *******************************/
+	/*.top-header-left-content*/
+	.custom-link ul li {
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	.custom-link ul li a{
+		font-size: 11px;
+	}
+	.custom-link ul li span {
+		padding-right: 8px;
+	}
+	/*.top-header-mid-content*/
+	.top-header-mid-content .dropdown .dropbtn {
+		font-size: 9px;
+	}
+	.dropdown-content a {
+		font-size: 9px;
+		padding: 10px 13px;
+	}
+	/*.top-header-right-content*/
+	.top-header-right-content .search-form .form-search .btn-search {
+		font-size: 10px;
+	}
+	.top-header-right-content .search-form .form-search input[type="text"] {
+		width: 150px;
+		padding: 0 0;
+		font-size: 10px;
+	}
+}
+@media screen and (min-width: 992px) {
+	.home-menu li:hover .sub-menu {
+		display: block;
+	}
+}
+@media screen and (max-width: 991px){
+	/****************************  .top-header  *******************************************/
+	.top-header-mid-content {
+		text-align: center;
+	}
+	.top-header-mid-content > .dropdown {
+		float: none;
+		display: inline-block;
+	}
+	.top-header-mid-content .dropdown .dropdown-content {
+		text-align: left;
+	}
+	.top-header-mid-content .dropdown .dropbtn {
+		font-size: 12px;
+	}
+	.dropdown-content a {
+		font-size: 12px;
+	}
+	/*****************************  .mid-header  ******************************************/tab
+	.mobile-search, .mobile-cart {
+		font-size: 18px!important;
+	} 
+	.mobile-table-icon button{
+		padding-left: 10px;
+	}
+	.mobile-menu button {
+		font-size: 18px;
+	}
+	.mobile-cart {
+		position: relative
+	}
+	.mobile-cart .mobile-quality {
+		position: absolute;
+	    font-size: 12px;
+	    background: red;
+	    padding: 0px 5px;
+	    border-radius: 50%;
+	    color: #fff;
+	    top: -7px;
+	    right: -10px;
+	}
+} 
+@media screen and (max-width: 480px) {
+	/****************************  .top-header  *******************************************/
+	.top-header-mid-content > .dropdown {
+		padding-left: 8px;
+		padding-right: 8px; 
+	}
+	.dropdown:first-child {
+		padding-left: 0;
+	}
+	.dropdown:last-child {
+		padding-right: 0;
+	}
+	.dropdown .dropbtn span {
+		margin-left: 5px;
+	}
+	.dropdown-content {
+		min-width: 110px;
+		right: 0;
+	}
+	.top-header-mid-content .dropdown .dropbtn {
+		font-size: 9px;
+	}
+	.dropdown-content a {
+		font-size: 9px;
+	}
+}
+
+
+
+
+
+
+
+
+
